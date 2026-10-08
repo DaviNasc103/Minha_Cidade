@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(213, 216, 219);
+}
+p {
+    font-size: 30px;
+   background-color: #3fa0f5;
+    color: white;
+    border: 5px solid #f2f5f8;
+}
+
+.texto_lista{
+   font-size: 25px;
+   color: white;
+   background-color:  #3fa0f5; 
+   margin: 0;
+}
+.lista{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+   justify-content: center; 
+   padding: 30px;
+}
+.item_lista section{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+a{
+    color: white
+    
+}
+h1, h2, h3{
+    text-align: center;
+}
+#titulo{
+    font-size: 40px;
+}
+.introducao_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    
+}
+.introducao{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+img{
+    border: 5px solid #f2f5f8;
+}
+.form{
+    display: flex;
+    background-color: #3fa0f5;
+    color: white;
+   margin: 0 auto;  /* Centraliza horizontalmente */
+    width: 185px;
+    gap: 30px;
+    padding: 10px; /* Adiciona um respiro interno */
+    
+}
+
+#botao{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#botao:hover{
+    background-color: blue;
+} 
+input[type="email"]{
+    background-color:#3fa0f5;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+   
+}
+.galeria{
+    
+    height: 300px;
+    border: solid 5px #3fa0f5;
+    flex-basis: 400px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
+
+}
+.galeria:hover{
+transform: scale(1.1);
+
+}
+header{
+    display: flex;
+    background-color: #74baf8;
+    height: 50px;
+    color: white;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+#footer{
+    display: flex;
+    font-size: 15px;
+    background-color:  rgb(213, 216, 219);
+    color: black;
+    border: rgb(213, 216, 219);
+    justify-content: center;
+    margin-top: 30px;
+}
+a {
+  color: inherit;            /* Herda a cor do texto ao redor */
+  text-decoration: none;     /* Remove o sublinhado padrão */
+  font-family: inherit;      /* Herda a família da fonte */
+  font-weight: inherit;      /* Herda o peso da fonte (se é negrito ou não) */
+  font-size: 30px;        /* Herda o tamanho da fonte */
+
+}
